@@ -1,0 +1,23 @@
+.imgHabilidades{
+    width: 40%;
+    justify-content: center;
+    display: flex;
+}
+.imgContainer3{
+    width: 40%;
+    height: auto;
+    border-radius: 10px 20px;
+    margin: 0 3em;
+    overflow: hidden;
+}
+.imgContainer3 img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.imgContainer3 img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

@@ -1,0 +1,6 @@
+.logoMenu{
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    height: 30px;
+}

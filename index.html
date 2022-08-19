@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu/item.css">
+    <link rel="stylesheet" href="css/menu/itemMenu.css">
+    <link rel="stylesheet" href="css/menu/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu/logoMenu.css">
+    <link rel="stylesheet" href="css/home/botaoContato.css">
+    <link rel="stylesheet" href="css/home/home.css">
+    <link rel="stylesheet" href="css/home/destaque.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/home/imgPerfil.css">
+    <link rel="stylesheet" href="css/formacao/formacao.css">
+    <link rel="stylesheet" href="css/formacao/imgFormacao.css">
+    <link rel="stylesheet" href="css/habilidades/habilidades.css">
+    <link rel="stylesheet" href="css/habilidades/imgHabilidades.css">
+    <link rel="stylesheet" href="css/contatos/contato.css">
+    <link rel="stylesheet" href="css/contatos/logos.css">
+    <link rel="stylesheet" href="css/contatos/linkContato.css">
+    <link rel="stylesheet" href="scripts.js">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portifolio Website</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu">                
+            <img src="img/logo.png" alt="" class="logoMenu">
+            <div class="itemMenu">
+                <a href="#home" class="item">Home</a>
+                <a href="#formacao" class="item">Formação</a>
+                <a href="#habilidades" class="item">Habilidades</a>
+                <a href="#contato" class="item">Contato</a>
+            </div>
+        </div>
+    </header>
+    <div class="home" id="home">
+        <div class="introducao">
+            <h2 style="
+            font-size: 3rem;
+            "
+            >Olá
+            </h2>
+            <h3 style="
+            font-size: 2rem;
+            "
+            >Sou o <a class="destaque">Silvio</a></h3>
+            <h3 style="
+            font-size: 2rem;
+            "
+            >UX/UI Developer</h3>
+            <a href="#contato"><button class="botaoContato">Contato</button></a>
+        </div>
+        <div class="imgContainer">
+        <img src="img/user-icon.png" alt="Foto de Perfil">
+        </div>
+    </div>
+    <script>ScrollReveal().reveal('.home',{delay: 300});</script> 
+
+        <h2 class="titulos" id="formacao">Formação</h2>  
+
+    <div class="formacao">
+        <div class="imgContainer2">
+            <img src="img/imgFormacao.jpg" alt="Imagem de folhas e lápis">
+        </div>
+        <div class="formacoes">
+            <h3 class="subtitulo">MBE</h3>
+            <h4 class="texto">Engenharia da Computação - UNINTER</h4>
+            <h3 class="subtitulo">Superior</h3>
+            <h4 class="texto">Gestão da Tecnologia da informação - UNIP</h4>
+            <h3 class="subtitulo">Técnico</h3>
+            <h4 class="texto">Informática - Polivalente</h4>
+        </div>
+    </div>
+    <script>ScrollReveal().reveal('.formacao',{delay: 300});</script>
+    <div class="titulos" id="habilidades">Habilidades</div>
+    <script>ScrollReveal().reveal('.titulos',{delay: 300});</script>
+    <div class="habilidades">
+        <div class="conteudoHabilidades">
+            <div class="texto">Nível de conhecimento de ferramentas que já cursei ou utitilizei no dia a dia.</div>
+            <div class="niveis">
+                <h3 class="subtitulo">HTML</h3>
+                <h2>80%</h2>    
+            </div>
+            <div class="barra80"></div>
+            <div class="niveis">
+                <h3 class="subtitulo">CSS</h3>
+                <h2>60%</h2>    
+            </div>
+            <div class="barra60"></div>
+            <div class="niveis">
+                <h3 class="subtitulo">EXCEL VBA</h3>
+                <h2>75%</h2>    
+            </div>
+            <div class="barra75"></div>
+            <div class="niveis">
+                <h3 class="subtitulo">UX/UI</h3>
+                <h2>75%</h2>    
+            </div>
+            <div class="barra75"></div>
+        </div>
+       <div class="imgContainer3">
+        <img src="img/imgHabilidades.jpg" alt="Imagem de um notebook">
+       </div>
+        
+    </div>
+    <script>ScrollReveal().reveal('.habilidades',{delay: 300});</script>
+    <div class="contato" id="contato">
+        <div class="logos">
+            <a href="https://wa.me/5519989255255" class="linkContato"><img src="img/logoWhatsapp.png" alt="Logo Whatsapp"></a>
+        </div>
+        <div class="logos">
+            <a href="mailto:silviop301@gmail.com" class="linkContato"><img src="img/logoGmail.png" alt="Logo Gmail"></a>
+        </div>
+        <div class="logos">
+            <a href="https://www.linkedin.com/in/silvio-pinheiro-da-costa-filho-083898127/" class="linkContato"><img src="img/logoLinkedin.png" alt="Logo Linkedin"></a>
+        </div>
+    </div>
+    <script>ScrollReveal().reveal('.contato',{delay: 300});</script>
+</body>
+</html>

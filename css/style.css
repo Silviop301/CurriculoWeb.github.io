@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: auto 7rem;
+}
+.titulos{
+    display: flex;
+    color: #3e6ff4;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 5rem;
+}
+.subtitulo{
+    color: #3e6ff4;
+    font-weight: bold;
+}
+.texto{
+    color: #444444;
+
+}
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}

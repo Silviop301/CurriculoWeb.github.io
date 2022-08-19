@@ -1,0 +1,26 @@
+.logos{
+    width: 29%;
+    height: 29%;
+    display: flex;
+    justify-content: center;
+}
+.logos img{
+    width: 29%;
+    height: auto;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.logos img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#show{
+    display: none;
+    text-decoration: none;
+}
+.linkContato:hover #show{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

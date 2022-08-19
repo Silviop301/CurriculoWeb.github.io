@@ -1,0 +1,11 @@
+.item{
+    text-decoration: none;
+    padding-left: 1em;
+    color: black;
+    font-weight: bold;
+    font-size: 1.17rem;
+}
+
+.item:hover{
+    color: #3e6ff4; 
+}

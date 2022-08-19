@@ -1,0 +1,7 @@
+.formacao{
+    margin-top: 10em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 10rem;
+}

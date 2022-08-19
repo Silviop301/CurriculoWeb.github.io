@@ -1,0 +1,33 @@
+.habilidades{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7rem 0;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+.niveis{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2em;
+}
+.barra80{
+    height: 5px;
+    background-color: #3e6ff4;
+    width: 80%;
+}
+.barra60{
+    height: 5px;
+    background-color: #3e6ff4;
+    width: 60%;
+}
+.barra75{
+    height: 5px;
+    background-color: #3e6ff4;
+    width: 75%;
+}
+.conteudoHabilidades{
+    width: 40%;
+}

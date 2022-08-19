@@ -1,0 +1,19 @@
+.botaoContato{
+    border: none;
+    border-radius: 5px;
+    background-color: #3e6ff4;
+    color: aliceblue;
+    font-size: 1.17rem;
+    padding: 0.5em 1.5em;
+    border-width: 1px;
+    font-weight: bold;
+    -webkit-transition: -webkit-transform .2s cubic-bezier(0.81,-0.42, 0, 1.13);
+    transition: transform .2s cubic-bezier(0.81,-0.42, 0, 1.13);
+}
+
+.botaoContato:hover{
+    color:lightgoldenrodyellow;
+    cursor: pointer;  
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
